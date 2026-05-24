@@ -28,5 +28,5 @@ class HyperCar(Car):
     def get_info(self):
         return f"{super().get_info()} and a top speed of {self.top_speed} mph"
     
-chiron = HyperCar("Bugatti", "Chiron", 2025, 2, False)
+chiron = HyperCar("Bugatti", "Chiron", 2025, 2, 261)
 print(chiron.get_info())
